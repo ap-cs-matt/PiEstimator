@@ -5,7 +5,7 @@ iterations = floor(log(maxSides // 6, 2))
 
 sideLength = 1
 radius = 1
-
+#
 for k in range(0, iterations):
     apothem = sqrt(1 - (sideLength / 2)**2)
     sideLength = sqrt((1-apothem)**2 + (sideLength / 2)**2)
